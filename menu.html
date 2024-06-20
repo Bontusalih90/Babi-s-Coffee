@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            color: whitesmoke;
+        }
+        body{
+            background-image: url(background.jpg) ;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        h1{
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: burlywood;
+            color: brown;
+        }
+        h2{
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: brown;
+            padding: 5px;
+        }
+       .column{
+        background-color: burlywood;
+        margin: 10px 40px;
+        height: 350px;
+        border-radius: 10px;
+       }
+       .row{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+         gap: 1.5rem;
+        
+       }
+       .item p{
+        display: inline-block;
+        color: black;
+        margin: 10px;
+        font-size: 18px;
+         
+       }
+       .price{
+          float: right;
+       }
+       .line{
+        height: 5px;
+        background-color: rgb(94, 30, 30);
+       }
+       img{
+        width: 40px;
+        margin-top: 7px;
+       }
+      .icon{
+        width: 60px;
+        margin: 0 auto;
+      }
+      .icon img{
+        width: 40px;
+        margin-top: 7px;
+       }
+      
+    </style>
+</head>
+<body>
+    <main>
+        <div>
+            <h1>Cafe Menu</h1>
+            <div class="row">
+                <div class="column" >
+                  <h2>HOT COFFEE</h2>
+                  <div class="line"></div>
+                  <div class="icon"><img src="coffee.png"></div>
+                  <article class="item">
+                    <p class="flavor">Cappuccino</p><p class="price">$1.99</p>
+                  </article>
+                  <article class="item">
+                    <p class="flavor">Macchiato</p>
+                    <p class="price">$3.00</p>
+                  </article>
+                  <article class="item">
+                    <p class="flavor">Cinnamon Coffee</p>
+                    <p class="price">$3.50</p>
+                  </article>
+                  <article class="item">
+                    <p class="flavor">Vanilla Latte</p>
+                    <p class="price">$3.99</p>
+                  </article>
+                  <article class="item">
+                    <p class="flavor">Filter Coffee</p>
+                    <p class="price">$5.00</p>
+                  </article>
+                  <article class="item">
+                    <p class="flavor">Espresso</p>
+                    <p class="price">$2.99</p>
+                  </article>
+                </div>
+                
+
+                    <div class="column" >
+                      <h2>COLD COFFEE  </h2>
+                      <div class="line"></div>
+                      <div class="icon"><img src="ice coffe.png"></div>
+                      <article class="item">
+                        <p class="flavor">Vegan Shake</p>
+                        <p class="price">$1.99</p>
+                      </article>
+                      <article class="item">
+                        <p class="flavor">Cold Coffee</p>
+                        <p class="price">$3.00</p>
+                      </article>
+                      <article class="item">
+                        <p class="flavor">Cold Mocha</p>
+                        <p class="price">$3.50</p>
+                      </article>
+                      <article class="item">
+                        <p class="flavor">Crunchy</p>
+                        <p class="price">$3.99</p>
+                      </article>
+                      <article class="item">
+                        <p class="flavor">Chocolate Shake</p>
+                        <p class="price">$5.00</p>
+                      </article>
+                      <article class="item">
+                        <p class="flavor">Iced Tea</p>
+                        <p class="price">$2.99</p>
+                      </article>
+                    </div>
+                </div>
+                <div class="row">
+                <div class="column">
+                  <h2>SNACKS</h2>
+                  <div class="line"></div>
+                  <div class="icon"><img src="icons8-snack-50.png"></div>
+                  <article class="item">
+                    <p class="flavor">Sandwich</p>
+                    <p class="price">$1.99</p>
+                  </article>
+                  <article class="item">
+                    <p class="flavor">Chicken Pockets</p>
+                    <p class="price">$3.99</p>
+                  </article>
+                  <article class="item">
+                    <p class="flavor">Bread Sticks</p>
+                    <p class="price">$2.50</p>
+                  </article>
+                  <article class="item">
+                    <p class="flavor">Garlic Bread</p>
+                    <p class="price">$3.99</p>
+                  </article>
+                  <article class="item">
+                    <p class="flavor">Veg Burger</p>
+                    <p class="price">$3.00</p>
+                  </article>
+                  <article class="item">
+                    <p class="flavor">Veg Pizza</p>
+                    <p class="price">$2.99</p>
+                  </article>
+                </div>
+
+                <div class="column">
+                  <h2>DESSERT</h2>
+                  <div class="line"></div>
+                  <div class="icon"><img src="dessert.png"></div>
+                  <article class="item">
+                    <p class="flavor">Chessecake</p>
+                    <p class="price">$1.99</p>
+                  </article>
+                  <article class="item">
+                    <p class="flavor">Strawberry Cake</p>
+                    <p class="price">$3.00</p>
+                  </article>
+                  <article class="item">
+                    <p class="flavor">Vanilla Cake</p>
+                    <p class="price">$3.50</p>
+                  </article>
+                  <article class="item">
+                    <p class="flavor">Berry Cheesecake</p>
+                    <p class="price">$3.99</p>
+                  </article>
+                  <article class="item">
+                    <p class="flavor">Brownie</p>
+                    <p class="price">$5.00</p>
+                  </article>
+                  <article class="item">
+                    <p class="flavor">Choko Fudge</p>
+                    <p class="price">$2.99</p>
+                  </article>
+                </div>
+              
+    </div>
+    </main>
+</body>
+</html>
